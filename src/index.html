@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Competition</title>
+
+    <!-- sass -->
+    <link rel="stylesheet" href="/sass/index.css">
+
+    <!-- javascript -->
+    <script src="/js/index.js" defer></script>
+</head>
+<body>
+      <main>
+           <section class="quiz-section">
+                    <div class="quiz">
+                        <div class="child-quiz">
+                              <span>Q1. Who invented the Javascript?</span>
+                              <br>
+                              <input type="radio" id="wrong-answer" name="answer" value="james" onclick="wrong()">&nbsp; &nbsp;<label>James Gosling</label>
+                              <br>
+                              <input type="radio" id="wrong-answer" name="answer" value="densie" onclick="wrong()">&nbsp; &nbsp;<label>Densie Ritchie</label>
+                              <br>
+                              <input type="radio" id="right-answer" name="answer" value="brendan" onclick="right()">&nbsp; &nbsp;<label>Brendan Eich</label>
+                              <br>
+                              <input type="radio" id="wrong-answer" name="answer" value="guido" onclick="wrong()">&nbsp; &nbsp;<label>Guido van Rossum</label>
+                              <br>
+                              <span id="result"></span>
+                        </div>
+                    </div>
+           </section>
+      </main>
+</body>
+</html>
